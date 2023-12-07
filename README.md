@@ -16,8 +16,9 @@ This script will execute a compression script then open Visual Studio Code along
 currently I use sitePackage for the environment folder you can replace the same for your case.
 
 
-[`startup_launcher.bat`](https://github.com/n0ts0lazy/StandardAutomationScripts/blob/main/startup_launcher.bat) -- Windows Specific<br>
+[`conditional_startup_launcher.bat`](https://github.com/n0ts0lazy/StandardAutomationScripts/blob/main/conditional_startup_launcher.bat) -- Windows Specific<br>
 Dependency: Place this script's shortcut in `:startup` / `shell:common startup`<br>
+This script will first check if internet connection is available which is my condtion for the rest of script to be executed <br>
 This is used for non conventional programs that you may use but also want to be presented to you on startup.
 
 [`res_custom_app.bat`](https://github.com/n0ts0lazy/StandardAutomationScripts/blob/main/res_custom_app.bat) -- Windows Specific <br>
